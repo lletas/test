@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+#content{
+    position: relative;
+    left:100px;
+}
+.square_g{
+    width: 100px;
+    height:100px;
+    text-align:center;
+    background-color: #cfc;
+}
+.rectangle1{
+    width:100px;
+    height:200px;
+    text-align:center;
+    background-color: #ccc;
+}
+.rectangle2{
+    width:200px;
+    height:100px;
+    text-align:center;
+    background-color: #fcc;
+}
+.square_b{
+    width:100px;
+    height:100px;
+    text-align:center;
+    background-color: #ccf;
+}
+.square_gray{
+    width:100px;
+    height:100px;
+    background-color: #ccc;
+    text-align: center;
+}
+.square_p{
+    width:100px;
+    height:100px;
+    background-color: #fcc;
+    text-align:center;
+}
+#row1>.square_g{
+    position: absolute;
+}
+#row1>.rectangle2{
+    position: absolute;
+    left:100px;
+}
+#row1>.square_b{
+    position: absolute;
+    left:300px;
+}
+/*row1设置了绝对定位脱离了标准文档流，导致row2上移被row1覆盖
+所以要把row2下移row1高*/
+/*****row2左侧*****/
+#row2{
+    position: absolute;
+    top:100px;
+}
+#row2>.rectangle1{
+    position: absolute;
+}
+/******row2右侧*********/
+#row2_c1{
+    position: absolute;
+    left:100px;
+}
+#row2_c1>.square_b{
+    position: absolute;
+}
+#row2_c1>.square_b,.square_g,.square_gray{
+    position: absolute;
+}
+#row2_c1>.square_gray{
+    left:100px;
+}
+#row2_c1>.square_g{
+    left:200px;
+}
+#row2_c2{
+    position: absolute;
+    left:100px;
+    top:100px;
+}
+#row2_c2>.square_p,.square_g,.square_gray{
+    position:absolute;
+}
+#row2_c2>.square_g{
+    left:100px;
+}
+#row2_c2>.square_gray{
+    left:200px;
+}
+/******* row3 ******/
+/*********** row3_left  ****************/
+#row3_left,#row3_right{
+    position: absolute;
+    top:300px;
+}
+#row3_left>.row3_rectangle_p{
+    background-color: #fcc;
+    position: absolute;
+}
+#row3_left>.row3_rectangle_gray{
+    position: absolute;
+    left:100px;
+}
+/****** row3_right ******/
+#row3_right>.rectangle2{
+    position: absolute;
+    left:200px;
+}
+#row3_right>.square_g{
+    position: absolute;
+    left:200px;
+    top:100px;
+}
+#row3_right>.square_b{
+    position:absolute;
+    left:300px;
+    top:100px;
+}
+/****** bottom ******/
+#bottom{
+    position: absolute;
+    top:500px;
+}
+#bottom>.square_g,.square_gray,.square_p,.square_b{
+    position: absolute;
+}
+#bottom>.bottom_2{
+    left:100px;
+}
+#bottom>.bottom_3{
+    left:200px;
+}
+#bottom>.bottom_4{
+    left:300px;
+}
+#bottom>.bottom_5{
+    left:400px;
+}
+#bottom>.bottom_6{
+    left:500px;
+}

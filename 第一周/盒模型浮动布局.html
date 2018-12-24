@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型浮动布局</title>
+    <link rel="stylesheet" type="text/css" href="盒模型布局.css">
+</head>
+<body>
+
+
+    <div id="content">
+        <div id="row1">
+            <div class="square_g">100*100</div>
+            <div class="rectangle2">200*100</div>
+            <div class="square_b">100*100</div>
+        </div>
+        <div id="row2">
+            <div class="rectangle1">100*200</div>
+            <div id="row2_c1">
+                <div class="square_b">100*100</div>
+                <div class="square_gray">100*100</div>
+                <div class="square_g">100*100</div>
+            </div>
+            <div id="row2_c2">
+                <div class="square_p">100*100</div>
+                <div class="square_g">100*100</div>
+                <div class="square_gray">100*100</div>
+        </div>
+        </div>
+        <div id="row3_left">
+            <div class="rectangle1 row3_rectangle_p">100*200</div>
+            <div class="rectangle1 row3_rectangle_gray">100*200</div>
+        </div >
+        <div id="row3_right">
+            <div class="rectangle2">200*100</div>
+            <div class="square_g">100*100</div>
+            <div class="square_b">100*100</div>
+        </div>
+
+    </div>
+    <div id="bottom">
+        <div class="square_g bottom_1">100*100</div>
+        <div class="square_gray bottom_2">100*100</div>
+        <div class="square_p bottom_3">100*100</div>
+        <div class="square_b bottom_4">100*100</div>
+        <div class="square_g bottom_5">100*100</div>
+        <div class="square_p bottom_6">100*100</div>
+    </div>
+
+</body>
+</html>
