@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    font-size:14px;
+}
+#body{
+    height:auto;
+}
+#clear{
+    clear: both;
+}
+.content{
+    background: #fff;
+    padding:10px;
+}
+.icon1{
+    background: #303338;
+    height:25px;
+    margin-bottom: 10px;
+}
+.icon1>span{
+    font-size: 12px;
+    color: #fff;
+    padding-left: 25px;
+    vertical-align: middle;
+
+}
+.text{
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+.col{
+    height:138px;
+    border-top:1px dotted #000;
+    padding-top:10px;
+}
+.content_title{
+    float: left;
+    width: 156px;
+    height: 25px;
+    color: #fff;
+    margin:0 0 15px 15px;
+}
+.content_title1{
+    background: url("../imgs/houqing-logo1.jpg");
+}
+.content_title2{
+    background: url("../imgs/houqing-logo2.jpg");
+}
+.content_title3{
+    background: url("../imgs/houqing-logo3.jpg");
+}
+.content_title4{
+    background: url("../imgs/houqing-logo4.jpg");
+}
+.content_title5{
+    background: url("../imgs/houqing-logo5.jpg");
+}
+.content_title>span{
+    color: inherit;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+}
+.col>img{
+    float: left;
+}
+.col>p{
+    float: left;
+    width: 760px;
+    margin-left:15px;
+}

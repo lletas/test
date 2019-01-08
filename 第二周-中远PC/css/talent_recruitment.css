@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    font-size: 14px;
+}
+#body{
+    height:auto;
+}
+#clear{
+    clear: both;
+}
+.content{
+    background: #fff;
+    padding:10px;
+    height:500px;
+}
+.icon1{
+    background: #303338;
+    height:25px;
+    margin-bottom: 10px;
+}
+.icon1>span{
+    font-size: 12px;
+    color: #fff;
+    padding-left: 25px;
+    vertical-align: middle;
+
+}
+.text{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.content_pic{
+    text-align: center;
+}
+.content_pic2{
+    float: left;
+    margin-left:180px;
+}
+.content_pic3{
+    float: left;
+    margin-left:50px
+}
